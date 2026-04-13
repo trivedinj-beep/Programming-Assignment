@@ -5,7 +5,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 let employees = [];
 let numEmployees = 3;
 
-// Collect employee data
+
 for (let i = 0; i < numEmployees; i++) {
     console.log(`\nEnter details for Employee ${i + 1}`);
 
