@@ -1,9 +1,8 @@
-// Name: Your Name Here
-// Program #1: Detect Prime Gaps
+
 
 const readline = require("readline-sync");
 
-// Function to check if a number is prime
+
 function isPrime(num) {
     if (num < 2) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -12,10 +11,10 @@ function isPrime(num) {
     return true;
 }
 
-// Prompt user input
+
 let n = parseInt(readline.question("Enter a positive number (<= 1000): "));
 
-// Validate input
+
 if (isNaN(n) || n <= 0 || n > 1000) {
     console.log("Invalid input. Please enter a number between 1 and 1000.");
     process.exit();
